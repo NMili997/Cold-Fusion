@@ -1,12 +1,4 @@
-/*h1{
-  background-color: #DDE0E3;
-  font-size: 40px;
-  margin-bottom: auto;
-  padding-top: 50px;
-  padding-left: 145px;
-  padding-bottom: 50px;
-}*/
-.menu{
+.menu{                    /*Editing Top menu */
   display: flex;
   justify-content: flex-start;
   border: 1px solid #FFF;
@@ -17,13 +9,13 @@
   padding-left: 190px;
   padding-bottom: 60px;
 }
-.tmt{
+.tmt{                     /* Editing "Tomato Timer",and fixing position */
   font-size: 40px;
   padding-right: 350px;
   font-weight: bold;
 }
 .buttonLog,
-.buttonFAQ{
+.buttonFAQ{               /*Editing position and decoration style for 2 buttons "LOG and FAQ"*/
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -36,7 +28,7 @@
   width: 80px;
   border-radius: 2px;
 }
-.buttonSetting{
+.buttonSettings{           /*Editing position and decoration style for button"Settings"*/
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -49,7 +41,7 @@
   width: 100px;
   border-radius: 2px;
 }
-.buttonTweetUs{
+.buttonTweetUs{           /*Editing position and decoration style for button "Tweet about us!"*/
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -62,13 +54,13 @@
   width: 125px;
   border-radius: 2px;
 }
-.pslButton{
+.pslButton{               /*Styling*/
   display: flex;
   justify-content: center;
 }
 .buttonShortBreak,
 .buttonPomodore,
-.buttonLongBreak{
+.buttonLongBreak{          /*Fixing position for 3 new buttons*/
   text-decoration: none;
   color: #FFF;
   text-align: center;
@@ -79,7 +71,7 @@
   width: 300px;
   box-sizing: border-box;
 }
-.action2{
+.action2{                   /*Styling .action2*/
   display: flex;
   justify-content: center;
   font-size: 100px;
@@ -88,7 +80,7 @@
   padding-top: 30px;
   margin-bottom: 40px;
 }
-.ssrButton{
+.ssrButton{                  /*Position for new 3 buttons*/
   display: flex;
   justify-content: center;
   margin: 35px;
@@ -126,18 +118,20 @@
   margin: 15px;
   width: 70px;
 }
-.action3 {
 
+.links{
+  display: flex;
+}
+
+.action3 {
   color: #343a40;
   background-color: #DDE0E3;
   font-family: cursive;
   font-weight: bold;
   padding: 20px;
   margin: auto;
-/*  margin-left: 150px;
-  margin-right: 900px;
-  margin-bottom: 20px;
-*/}
+}
+
 .action4 {
   margin: auto;
   color: #343a40;
@@ -158,7 +152,9 @@
   border-radius: 5px;
   width: 200px;
 }
-.t1{
+.firstCube,
+.secondCube,
+.thirdCube{
 
   font-size: 10px;
   font-style: italic;
@@ -171,13 +167,4 @@
   font-family: cursive;
   font-weight: bold;
   padding: 20px;
-}
-.tt{
-  font-size: 10px;
-  font-style: italic;
-  font-weight: none;
-}
-
-.links{
-  display: flex;
 }
