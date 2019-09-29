@@ -1,0 +1,183 @@
+/*h1{
+  background-color: #DDE0E3;
+  font-size: 40px;
+  margin-bottom: auto;
+  padding-top: 50px;
+  padding-left: 145px;
+  padding-bottom: 50px;
+}*/
+.menu{
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid #FFF;
+  width: auto;
+  background-color: #DDE0E3;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  padding-left: 190px;
+  padding-bottom: 60px;
+}
+.tmt{
+  font-size: 40px;
+  padding-right: 350px;
+  font-weight: bold;
+}
+.buttonLog,
+.buttonFAQ{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  background-color: #343a40;
+  padding: 10px;
+  border: 1px solid #5D6063;
+  box-sizing: border-box;
+  width: 80px;
+  border-radius: 2px;
+}
+.buttonSetting{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  background-color: #343a40;
+  padding: 10px;
+  border: 1px solid #5D6063;
+  box-sizing: border-box;
+  width: 100px;
+  border-radius: 2px;
+}
+.buttonTweetUs{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  background-color: #343a40;
+  padding: 10px;
+  border: 1px solid #5D6063;
+  box-sizing: border-box;
+  width: 125px;
+  border-radius: 2px;
+}
+.pslButton{
+  display: flex;
+  justify-content: center;
+}
+.buttonShortBreak,
+.buttonPomodore,
+.buttonLongBreak{
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  background-color: #007bff;
+  padding: 12px;
+  border: 1px solid #5D6063;
+  border-radius: 5px;
+  width: 300px;
+  box-sizing: border-box;
+}
+.action2{
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: serif;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+.ssrButton{
+  display: flex;
+  justify-content: center;
+  margin: 35px;
+}
+.buttonStart{
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #28a745;
+  padding: 20px;
+  border: 1px solid #5D6063;
+  border-radius: 4px;
+  width: 60px;
+  margin: 15px;
+}
+.buttonStop{
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #dc3545;
+  padding: 20px;
+  border: 1px solid #5D6063;
+  border-radius: 4px;
+  margin: 15px;
+  width: 60px;
+}
+.buttonReset{
+  text-align: center;
+  text-decoration: none;
+  color: #5D6063;
+  background-color: #DDE0E3;
+  padding: 20px;
+  border: 1px solid #5D6063;
+  border-radius: 4px;
+  margin: 15px;
+  width: 70px;
+}
+.action3 {
+
+  color: #343a40;
+  background-color: #DDE0E3;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 20px;
+  margin: auto;
+/*  margin-left: 150px;
+  margin-right: 900px;
+  margin-bottom: 20px;
+*/}
+.action4 {
+  margin: auto;
+  color: #343a40;
+  background-color: #DDE0E3;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 20px;
+}
+.buttonEnableDA{
+  font-weight: normal;
+  font-size: 12px;
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  background-color: #007bff;
+  padding: 5px;
+  border: 1px solid #5D6063;
+  border-radius: 5px;
+  width: 200px;
+}
+.t1{
+
+  font-size: 10px;
+  font-style: italic;
+  font-weight: normal;
+}
+.action5 {
+  margin: auto;
+  color: #343a40;
+  background-color: #DDE0E3;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 20px;
+}
+.tt{
+  font-size: 10px;
+  font-style: italic;
+  font-weight: none;
+}
+
+.links{
+  display: flex;
+}
