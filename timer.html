@@ -2,12 +2,14 @@
 <html lang='en'>
   <head>
     <meta charset='UTF-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TomatoTimer</title>
-    <link rel='stylesheet' href='timer-styles.css'/>
+    <link rel='stylesheet' href='second-styles.css'/>
   </head>
-  <body>
+<body>
         <div class="menu">
           <div class="tmt">TomatoTimer</div>
+            <div class="rightB">
                 <a class="buttonLog" href="nowhere.html">Log</a>
                 <a class="buttonFAQ" href="nowhere.html">FAQ</a>
                 <a class="buttonSettings" href="nowhere.html">Settings</a>
@@ -15,7 +17,7 @@
               </div>
             </div>
           <div class="pslButton">  <!-- This class is an attribute through which we can access the tag in CSS/JS-->
-                <a class="buttonPomodore" href="nowhere.html">Pomodore</a>
+                <button class="buttonPomodore" href="nowhere.html">Pomodore</button>
                 <a class="buttonShortBreak" href="nowhere.html">Short Break</a>
                 <a class="buttonLongBreak" href="nowhere.html">Long Break</a>
               </div>
@@ -28,9 +30,10 @@
             <a class="buttonReset" href="nowhere.html">Reset</a>
 
           </div>
-          <div class="links">
-                  <div class="action3">
-                        <p>Keyboard Shortcuts</p>
+<div class="links">
+            <div class="links">
+              <div class="panel">
+                        <h2>Keyboard Shortcuts</h2>
                           <ul>
                             <li>SPACE <a class="firstCube">Start or Stop Timmer</a></li>
                             <li>ALT + P <a class="firstCube">Pomodore</a></li>
@@ -39,15 +42,22 @@
                             <li>ALT + R <a class="firstCube">Reset Timer</a></li>
                           </ul>
                         </div>
-                    <div class="action4">
-                      <p>Notification <a class="secondCube"><hr>You can change the audio tone and <br> volume via Settings <hr>Desktop Notifications are currently <br> supported in Chrome, Firefox and Safari</a></p>
+                      </div>
+                  <div class="links">
+                    <div class="panel">
+                      <h2>Notification</h2>
+                      <h3 class="secondHeader">You can change the audio tone and volume via Settings </h3>
+                      <h3 class="secondHeader">Desktop Notifications are currently supported in Chrome, Firefox and Safari</h3>
                       <a class="buttonEnableDA" href="nowhere.html">Enable Desktop Alerts</a>
                     </div>
-                    <div class="action5">
-                      <p>Settings <a class="thirdCube"><hr>You can set custom times, audio tone <br> and volume via Settings.</a></p>
-
-                    </div>
-                 </div>
+                  </div>
+                  <div class="links">
+                    <div class="panel">
+                      <h2>Settings</h2>
+                         <h3 class="secondHeader">You can set custom times, audio tone and volume via Settings.</h3>
+                      </div>
+                  </div>
+  </div>
 
 
 

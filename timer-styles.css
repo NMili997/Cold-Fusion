@@ -1,4 +1,5 @@
 .menu{                    /*Editing Top menu */
+  position: relative;
   display: flex;
   justify-content: flex-start;
   border: 1px solid #FFF;
@@ -15,9 +16,12 @@
   font-weight: bold;
 }
 .buttonLog,
-.buttonFAQ{               /*Editing position and decoration style for 2 buttons "LOG and FAQ"*/
+.buttonFAQ{             /*Editing position and decoration style for 2 buttons "LOG and FAQ"*/
+/*  flex-wrap: wrap;
   display: flex;
-  justify-content: center;
+  position: relative;
+  display: flex;
+  justify-content: center;*/
   text-decoration: none;
   color: #FFF;
   text-align: center;
@@ -29,8 +33,8 @@
   border-radius: 2px;
 }
 .buttonSettings{           /*Editing position and decoration style for button"Settings"*/
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
   text-decoration: none;
   color: #FFF;
   text-align: center;
@@ -42,8 +46,8 @@
   border-radius: 2px;
 }
 .buttonTweetUs{           /*Editing position and decoration style for button "Tweet about us!"*/
-  display: flex;
-  justify-content: center;
+/*  display: flex;
+  justify-content: center;*/
   text-decoration: none;
   color: #FFF;
   text-align: center;
