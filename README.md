@@ -1,2 +1,3 @@
 # Cold-Fusion
-Learning HTML and CSS. Creating Pomodore Timer App.
+Learning HTML,CSS(BootStrap),JS
+Creating Pomodore Timer App.
