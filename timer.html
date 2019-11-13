@@ -3,14 +3,20 @@
   <head>
     <meta charset='UTF-8'/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link id="dynamic-favicon" rel="icon" type="image/ico"
         href="images/red_tomato.ico">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <style>
+            .bs-example{
+            	margin: 20px;
+            }
+        </style>
+
     <title>TomatoTimer</title>
     <!--<link rel='stylesheet' href='second-styles.css'/> -->
 
@@ -18,10 +24,10 @@
   </head>
 <body>
         <div class="menu">
-          <div class="tmt">TomatoTimer</div>
+          <div class="tmt" id="wtf">TomatoTimer</div>
             <div class="buttons">
-                <button href="#" class="buttonLog" data-toggle="modal" data-target="#myModal">Log</button>
-                <button href="#" class="buttonFAQ" data-toggle="faqmodal" data-target="#myfaqModal" >FAQ</button>
+                <button  class="buttonLog" data-toggle="modal" data-target="#myModal">Log</button>
+                <button  class="buttonFAQ" data-toggle="modal" data-target="#myfaqModal" >FAQ</button>
                 <a href="set.html" class="buttonSettings">Settings</a >
                 <a href="buttonTweetUs" class="buttonTweetUs">Tweet about us!</a>
               </div>
@@ -31,10 +37,10 @@
                 <button class="buttonShortBreak" href="nowhere.html">Short Break</button>
                 <button class="buttonLongBreak" href="nowhere.html">Long Break</button>
               </div>
-          <div><span id="timer>"></span></div>
+
 
           <div class="ssrButton">
-            <button class="buttonStart" id="timer_start">Start</button>
+            <button class="buttonStart" id="timer_start" onclick="startTimer()">Start</button>
             <button class="buttonStop" id="timer_stop">Stop</button>
             <button class="buttonReset" id="timer_reset">Reset</button>
 
@@ -68,8 +74,13 @@
                   </div>
               </div>
               <!-- Modal -->
+              <div class="bs-example">
+
+
+
+
               <div class="modal fade" id="myModal" role="dialog" tabindex="-1">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-x1">
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -85,21 +96,21 @@
                           <th>End time</th>
                           <th>Description</th>
                         </tr>
-                        </table>
-                      <!-- not working with 2 buttons
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Clear pomodor`s done today</button> -->
+                      </table>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cleartimer log</button>
                       </div>
                       </div>
                     </div>
                   </div>
-                  <!--
-              <div class="faqmodal fade" id="myfaqModal" role="dialog">
-                <div class="faq-dialog">
+
+
+              <div class="modal fade" id="myfaqModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
                   <div class="faq-content">
                     <div class="faq-header">
                       <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
-                    <div class="faq-body">
+                    <div class="modal-body">
                       <div>
                     		Q. What is Pomodoro Technique?
                     	</div>
@@ -136,7 +147,8 @@
 
                 </div>
 
-              </div> -->
-
-  </body>
+              </div>>
+        </div>
+        <script src="./js/timer.js"></script>
+</body>
 </html>
