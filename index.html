@@ -1,0 +1,155 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link id="dynamic-favicon" rel="icon" type="image/ico"
+        href="images/red_tomato.ico">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <style>
+            .bs-example{
+            	margin: 20px;
+            }
+        </style>
+
+    <title>TomatoTimer</title>
+    <!--<link rel='stylesheet' href='second-styles.css'/> -->
+
+
+  </head>
+<body>
+        <div class="menu">
+          <div class="tmt" id="wtf">TomatoTimer</div>
+            <div class="buttons">
+                <button  class="buttonLog" data-toggle="modal" data-target="#myModal">Log</button>
+                <button  class="buttonFAQ" data-toggle="modal" data-target="#myfaqModal" >FAQ</button>
+                <a href="set.html" class="buttonSettings">Settings</a >
+                <a href="buttonTweetUs" class="buttonTweetUs">Tweet about us!</a>
+              </div>
+            </div>
+          <div class="buttons">  <!-- This class is an attribute through which we can access the tag in CSS/JS-->
+                <button class="buttonPomodore active"  href="nowhere.html">Pomodore</button>
+                <button class="buttonShortBreak" href="nowhere.html">Short Break</button>
+                <button class="buttonLongBreak" href="nowhere.html">Long Break</button>
+              </div>
+
+
+          <div class="ssrButton">
+            <button class="buttonStart" id="timer_start" onclick="startTimer()">Start</button>
+            <button class="buttonStop" id="timer_stop">Stop</button>
+            <button class="buttonReset" id="timer_reset">Reset</button>
+
+          </div>
+      <div class="links">
+            <div class="links">
+              <div class="panel">
+                        <h2>Keyboard Shortcuts</h2>
+                          <ul>
+                            <li>SPACE <a class="firstCube">Start or Stop Timmer</a></li>
+                            <li>ALT + P <a class="firstCube">Pomodore</a></li>
+                            <li>ALT + S <a class="firstCube">Short Break</a></li>
+                            <li>ALT + L <a class="firstCube">Long Break</a></li>
+                            <li>ALT + R <a class="firstCube">Reset Timer</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                  <div class="links">
+                    <div class="panel">
+                      <h2>Notification</h2>
+                      <h3 class="secondHeader">You can change the audio tone and volume via Settings </h3>
+                      <h3 class="secondHeader">Desktop Notifications are currently supported in Chrome, Firefox and Safari</h3>
+                      <a class="buttonEnableDA" href="nowhere.html">Enable Desktop Alerts</a>
+                    </div>
+                  </div>
+                  <div class="links">
+                    <div class="panel">
+                      <h2>Settings</h2>
+                         <h3 class="secondHeader">You can set custom times, audio tone and volume via Settings.</h3>
+                      </div>
+                  </div>
+              </div>
+              <!-- Modal -->
+              <div class="bs-example">
+
+
+
+
+              <div class="modal fade" id="myModal" role="dialog" tabindex="-1">
+                <div class="modal-dialog modal-x1">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Time Log</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Pomodoro goal tracker:</p>
+                        <button type="button" class="btn btn-primary disabled">Clear pomodor`s done today</button>
+                        <table style="width:100%">
+                        <tr>
+                          <th>Session</th>
+                          <th>Start time</th>
+                          <th>End time</th>
+                          <th>Description</th>
+                        </tr>
+                      </table>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cleartimer log</button>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+              <div class="modal fade" id="myfaqModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <div class="faq-content">
+                    <div class="faq-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                      <div>
+                    		Q. What is Pomodoro Technique?
+                    	</div>
+
+                    	<div>
+                    		A. The time management technique created by Francesco Cirillo for a	more productive way to work and study. For more information,&nbsp;<a href="http://www.pomodorotechnique.com" target="_blank">click here</a>.
+                    	</div>
+
+                    	<div>
+                    		<br>
+                    	</div>
+
+                    	<div>
+                    		Q. Can you tell me the story without having to visit the website?
+                    	</div>
+
+                    	<div>
+                    		<div>
+                    			A. Well, it comprises of the following basic steps:
+                    		</div>
+
+                    		<ul>
+                    			<li>Decide on the task at hand</li>
+                    			<li>Set the <strong>Pomodoro</strong> (timer) to 25 minutes</li>
+                    			<li>Work on the task until the timer expires; Record with an X</li>
+                    			<li>Take a <strong>Short Break</strong> (5 minutes)</li>
+                    			<li>Every four "<em>pomodoros</em>", take a <strong>Long Break</strong> (10 minutes)</li>
+                    		</ul>
+                    	</div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>>
+        </div>
+        <script src="./js/timer.js"></script>
+</body>
+</html>
