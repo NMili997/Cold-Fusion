@@ -112,16 +112,16 @@ window.onload = function() {
 
   //Add buttons onlick (start,stop,reset,pomodore...etc)
 
-  document.getElementById('timer_start').addEventListener(
+  document.getElementById('btn_start').addEventListener(
     'click', function () {
       timer.start();
     });
-    document.getElementById('timer_stop').addEventListener(
+    document.getElementById('btn_stop').addEventListener(
         'click', function () {
             timer.pause();
         });
 
-    document.getElementById('timer_reset').addEventListener(
+    document.getElementById('btn_reset').addEventListener(
         'click', function () {
             resetMainTimer(timer.seconds);
             timer.start();
